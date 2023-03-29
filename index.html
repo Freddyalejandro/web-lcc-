@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCC</title>
+    <link rel="shortcut icon" href="./img/lcc.icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body><!--I have separated the html file into sections to make it easier to understand. The main one is the header, then I divide the sections into 4 parts and the last one is the footer-->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__logo">
+                <img src="/img/lcc.png" alt="logo">
+                <h1>London Construction Contractor</h1>   
+            </div>
+            <!--This is how I structured the wave for the header effect-->
+            <section class="wave">
+                <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 271.49,-49.99 511.51,95.23 L502.48,0.50 L0.00,0.00 Z" style="stroke: none; fill: rgb(31, 29, 29);"></path></svg></div>
+            </section>
+            <div class="nav__imgback">
+                <a href="index.html"><img src="/img/lcc.header.png" alt="img background"></a>
+            </div>
+            <div class="nav__">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="Report.html">REPORT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="BIULD.html">BIULD</a></li>
+                    <li><a href="CONCTAC_US.html">CONCTAC US</a></li>
+                    
+                </ul>
+            </div>   
+        </nav>
+    </header>
+    <!--This will be a box with a compilation of images of the latest projects-->
+    <section class="lastprojects">  
+        <div class="last_container container">
+            <img src="img/arrow.svg" class="last_projetcs__arrow" id="next" alt="">
+            <img src="img/arrowlef.svg" class="last_projetcs__arrow" id="before" alt="">
+            <section class="projects projects-show" data-id="1">
+                <figure class=projects_picture">
+                    <img src="img/galeria1.img1.png" class="project-img" alt="">
+                </figure>
+                <div class="project-name">
+                    <h3>Kintan Oxford Circus, London</h3>
+                </div>
+            </section>
+            <section class="projects" data-id="2">
+                <figure class=projects_picture">
+                    <img src="img/lasproyect2.jpg" class="project-img" alt="">
+                </figure>
+                <div class="project-name">
+                    <h3>Kintan Oxford Circus, London</h3>
+                </div>
+            </section>
+            <section class="projects" data-id="3">
+                <figure class=projects_picture">
+                    <img src="img/lasproyect3.jpg" class="project-img" alt="">
+                </figure>
+                <div class="project-name">
+                    <h3>Kintan Oxford Circus, London</h3>
+                </div>
+            </section>
+        </div>
+        <!--texto-->
+        <div class="last_texto">
+            <h2 class="tit-2"> FROM CONCEPTION TO REALISATION</h2>
+            <P>LCC operates within a design and build model, acting as architect, contractor and project manager. <br>
+            Our portfolio boasts a few of London’s most prestigious addresses and ranges from extentions to renovations and new builds</P>
+        </div>
+    </section>
+    <!--a column of images that symbolize the services offered by the company-->
+    <section class="container-icons">
+        <div class="icons_content">
+            <div class="icons__">
+                <img src="img/servicio.1.icon.png" alt="2 icon">
+                <h3><a href="#">DESING AND BIULD</a></h3>
+            </div>
+            <div class="icons__">
+                <img src="img/servicio.2.icon.png" alt="2 icon">
+                <h3><a href="#">ARCHITECTURAL SERVICES</a></h3>
+            </div>
+            <div class="icons__">
+                <img src="img/servicio.3.icon.png" alt="3 icon">
+                <h3><a href="#">SHOPFITTING</a></h3>
+            </div>
+            <div class="icons__">
+                <img src="img/servicio.2.icon.png" alt="3 icon">
+                <h3><a href="#">CONSTRUCTION</a></h3>
+            </div>
+            <div class="icons__">
+                <img src="img/servicio.1.icon.png" alt="2 icon">
+                <h3><a href="#">PROJETC MANAGEMENT</a></h3>
+            </div>
+            <div class="icons__">
+                <img src="img/servicio.3.icon.png" alt="3 icon">
+                <h3><a href="#">MANTENANCE</a></h3>
+            </div>
+        </div>  
+    </section>
+    <!--This is an image box that will be the entrance to our image gallery.-->
+    <section class="projects__">
+        <div class="tit-3">
+            <h2 >PROJECTS</h2>
+        </div>
+        <!--This gallery has the effect of starting with a dark background and then getting lighter when you hover over it.-->
+        <div class="pro__container">
+            <div class="imagen-port">
+                <img src="img/GALERIA.PROJ.jfif" alt="" >
+                 <p>COMERCIAL</p>
+            </div>
+            <div class="imagen-port">
+                <img src="img/GALERIA.PROJ2.jfif" alt="">
+                <p>RESIDENTIAL</p>
+            </div>
+            <div class="imagen-port">
+                <img src="img/GALERIA.PROJ3.jfif" alt="">
+                <p>NEW BIULD</p>
+            </div>
+            <div class="imagen-port">
+                <img src="img/GALERIA.PROJ54.jfif" alt="">
+                <p>CONCEPT DESING</p>
+            </div>
+        </div>
+</section>
+<!-- section that defines why to choose lcc for a project, a column of images and text-->
+<section class="container-why">
+    <div class="icons-why">
+        <img src="img/icon1why.png" alt="">
+        <h4>informed, 
+        needs driven projects</h4>
+    </div>
+    <div class="icons-why">
+        <img src="img/icon2why.png" alt="">
+        <h4>Consolidated
+            and controlled
+            process</h4>
+    </div>
+    <div class="icons-why">
+        <img src="img/icon3why.png" alt="">
+        <h4>Project management
+            and facilitation</h4>
+    </div>
+    <div class="icons-why">
+        <img src="img/icon4why.png" alt="">
+        <h4>Transparent
+            communication </h4>
+    </div>
+    <div class="icons-why">
+        <img src="img/icon5why.png" alt="">
+        <h4>Post construction
+            inspections</h4>
+    </div>
+</section>
+<div class="butt__stilo">
+    <button type="button">Read More!</button>
+</div>
+<section class="clients">
+        <img src="img/Captura de pantalla_20221129_013317.png" alt="">
+</section>
+</body>
+<!--In the end, it has all the contact information of the company, social media, and address, in addition to All rights reserved-->
+<footer>
+    <div class="contenedor-footer">
+        <div class="adress">
+            <p>
+                Mayfair <br> 
+                205 Regent St <br>
+                4th floor, Matfair <br>
+                London, W1B 4HB <br>
+            </p>
+            <p>
+                <br> Oxford Circus <br>
+                37-38 Margaret St <br>
+                Ground Floor, Marylebone,<br>
+                London, W1G 0JF
+            </p>
+        </div>
+        <div class="contact">
+            <p>T: 020 8960 8899</p> <br>
+            <p>Email: info@lccontractor.co.uk​​</p> <br>
+            <p>Mondays to Fridays 9:30 AM - 6:30 PM</p> <br>
+            <img src="img/imgfooter.png" alt="imgcontact">
+        </div>
+        <div class="content-foot">
+            <a href="#">​Privacy Policy</a><br><br>
+            <a href="#">​Cookies</a><br><br>
+            <a href="#">​Terms and conditions</a><br><br>
+            <a href="#">​Terms of us</a><br><br>
+        </div>
+    </div>
+    <div class="finalfooter">
+        <div class="logofooter">
+            <img src="img/lcc.icon.png" alt="logo">
+        </div>
+        <div class="reserved">
+            <p> All rights reserved © <br>
+            London Construction Contractor Ltd <br>
+            Company Registered in England and Wales. Reg No.: 09127691 England. <br>
+            LONDON CONSTRUCTION CONTRACTOR LTD. Registered Office: 254 Goldhawk Road, London, W12 9PE <br></p>
+        </div>
+        <div class="socialmedia">
+            <img src="img/face.svg" alt="face">
+            <img src="img/tw.svg" alt="in">
+            <img src="img/ins.svg" alt="instagran">
+            <img src="img/what.svg" alt="what">
+        </div>  
+        <script src="/js/slaider.js"></script>
+</footer>
+</html>
