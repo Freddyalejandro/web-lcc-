@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height:1000px;
+}
+:root{
+    --padding-container:100px ;
+    --color-title: #001A49;
+ }
+ /* estilo del header
+ */
+ .last_text{
+    width: 90%;
+    max-width: 1800px;
+    position: relative;
+    overflow: hidden;
+    left: 25%;
+    top: 200px;
+    color: gray;
+
+ }
+ .container-wh{
+    width: 90%;
+   max-width: 1800px;
+   margin: 0;
+   overflow: hidden;
+   padding: var(--padding-container);
+   text-align: center;
+   display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns: max-content;
+   position: relative;
+   top: 200px;
+   right: 280px;
+   justify-content: space-evenly;
+   
+ }
+ .texto_2{
+    width: 90%;
+   padding: var(--padding-container);
+   position: relative;
+   display: grid;
+   grid-auto-flow:row;
+   gap: 3em;
+   align-items: center;
+   left: 42%;
+   bottom: 530px;
+   color: gray;
+ }
+ .title-1 > h2 {
+    position: relative;
+    gap: 1em;
+ }
+/*footer*/
+footer{
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 80px 0 80px;
+    padding: var(--padding-container);
+    position: relative;
+    bottom: 600px;
+
+ }
+ .contenedor-footer{
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 15em;
+    position: relative;
+    left: 100px;
+    align-items: center;
+ }
+ .adress > p{
+    position: relative;
+    text-align: start;
+ }
+ .contact > p{
+    position: relative;
+    text-align: start;
+ }
+ .contact > img{
+    position: relative;
+    text-align: start;
+ }
+ .content-foot{
+    position: relative;
+    text-align: start;
+ }
+ .content-foot > a{
+    color: #0e0e0e;
+ }
+ .content-foot > a:hover{
+    background-color: #f9f9f5;
+    font-style: none;
+    font-style: none ;
+ 
+ }
+ .finalfooter{
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+    position: relative;
+    align-items: center;
+ 
+    justify-content: space-evenly;
+    
+ }
+ .logofooter > img{
+    width: 100px;
+ }
+ .reserved{
+    position: relative;
+    text-align: start;
+ }
+ .socialmedia{
+    position: relative;
+    align-items: center;
+ }
+ .socialmedia > img {
+    width: 50px;
+ }
+ 
